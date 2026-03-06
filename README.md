@@ -20,6 +20,14 @@ A Texas Hold'em poker game built in Python with a graphical interface and an AI 
 - Minimax Algorithm
 - Alpha-Beta Pruning
 
+## Architecture
+
+- `game/engine.py` handles betting flow, streets, and pot settlement
+- `poker/evaluator.py` ranks hands and resolves showdowns
+- `ai/node.py` builds determinized game states for search
+- `ai/minimax.py` performs Minimax with Alpha-Beta pruning
+- `ui/pygame_app.py` renders the game, controls, and animations
+
 ## Run
 
 ```bash
